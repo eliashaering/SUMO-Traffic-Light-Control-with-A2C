@@ -18,7 +18,7 @@ Ziel ist es, die Wartezeiten und Staus an einer Kreuzung durch lernende Algorith
 Für die Simulation wurden die realen Verkehrsdaten der Stadt Ingolstadt verwendet. Diese sind verfügbar unter:
 https://github.com/TUM-VT/sumo_ingolstadt
 
-Meine angepasste Version ist im Zip-Ordner "Simualationsdaten" zu finden 
+Die angepasste Version ist im Zip-Ordner "Simualationsdaten" zu finden 
 
 Bitte laden Sie das Repository herunter und passen Sie den Pfad zur Konfigurationsdatei (.sumocfg) im Skript entsprechend an.
 
