@@ -171,7 +171,7 @@ def set_trafficlight_state(tl_id, green_indices, green_char="G", red_char="r"):
     traci.trafficlight.setRedYellowGreenState(tl_id, new_state)
 
 # SUMO-Simulation starten
-sumo_cmd = ["sumo", "-c", "C:/Users/elias/Downloads/sumo_ingolstadt-main/sumo_ingolstadt-main/simulation/24h_sim.sumocfg","--no-warnings", "--verbose", "false"]
+sumo_cmd = ["sumo", "-c", "Hier den Pfad zur Sumo-Simulation eintragen","--no-warnings", "--verbose", "false"]
 traci.start(sumo_cmd)
 
 # Ampel-ID setzen
