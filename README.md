@@ -18,12 +18,12 @@ Ziel ist es, die Wartezeiten und Staus an einer Kreuzung durch lernende Algorith
 Für die Simulation wurden die realen Verkehrsdaten der Stadt Ingolstadt verwendet. Diese sind verfügbar unter:
 https://github.com/TUM-VT/sumo_ingolstadt
 
-Die angepasste Version ist im Zip-Ordner "Simualationsdaten" zu finden 
+Die angepasste Version einzelner Konfigurationsdateien ist im Zip-Ordner "Simualationsdaten" zu finden 
 
 Bitte laden Sie das Repository herunter und passen Sie den Pfad zur Konfigurationsdatei (.sumocfg) im Skript entsprechend an.
 
 ## Anpassung des State Spaces
-Im Code kann der State Space flexibel gewählt werden, um unterschiedliche Aspekte der Verkehrssituation abzubilden. Die möglichen State Spaces finden Sie im Abschnitt, wo die Variable state_dim gesetzt wird. Dort sind verschiedene Varianten auskommentiert:
+Im Code kann der State Space flexibel gewählt werden, um unterschiedliche Aspekte der Verkehrssituation abzubilden. Die möglichen State Spaces finden Sie im Abschnitt, indem die Variable state_dim gesetzt wird. Dort sind verschiedene Varianten auskommentiert:
 
 - Maximale Wartezeit pro Spur
 - Anzahl wartender Fahrzeuge pro Spur
