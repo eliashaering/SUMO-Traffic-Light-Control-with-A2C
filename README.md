@@ -1,4 +1,4 @@
-# Adaptive Verkehrssteuerung mit A2C und SUMO
+# Adaptive Verkehrssteuerung mit A2C und SUMO Test
 
 Dieses Projekt implementiert eine adaptive Ampelsteuerung basierend auf Reinforcement Learning (A2C - Advantage Actor Critic) in Verbindung mit der mikroskopischen Verkehrssimulation SUMO.
 
